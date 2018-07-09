@@ -12,5 +12,8 @@
         <h1>Modal</h1>
     </div>
     <a id="mod-button">Open</a>
+    <script>
+    let modal = new Modal("mod", "mod-button");
+    </script>
 </body>
 </html>
