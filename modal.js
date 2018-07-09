@@ -13,7 +13,7 @@ function Modal(eleId, buttonId) {
 }
 //object global variables
 Modal.prototype.borderSize = window.innerWidth * 0.10;
-Modal.prototype.ele = "";
+Modal.prototype.ele = "modal-wrapper";
 Modal.prototype.modalOpenButton = "modal-button";
 Modal.prototype.hiddenEle = false;
 Modal.prototype.open = function() {
