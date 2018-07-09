@@ -1,7 +1,8 @@
 Lightweight Modal
 ===
 
-##Installation Instructions
+Installation Instructions
+---
 
 1. download and add the modal.js file to your HTML document.
 ```
@@ -23,8 +24,8 @@ Lightweight Modal
     let modal = new Modal();
   </script>
 ```
-#####If you want to use more than one modal, simply choose a unique id on your wrapper and button and pass these names into
-the initialization of your modal object
+**If you want to use more than one modal, simply choose a unique id on your wrapper and button and pass these names into
+the initialization of your modal object**
 ```
   <script>
     let modal = new Modal("my-unique-modal-wrapper","my-unique-modal-button");
@@ -32,7 +33,8 @@ the initialization of your modal object
 ```
 5. All done! now reload your page, click your button and the modal should be working.
 
-####Complete Code
+Complete Code
+---
 ```
 <script src="path/to/file/modal.js></script>
 <div id="modal-wrapper">
