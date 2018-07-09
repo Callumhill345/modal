@@ -6,17 +6,17 @@ Lightweight Modal
 ```
 <script src="path/to/file/modal.js></script>
 ```
-2.Add a <div> element with an id of your choosing. default is **"modal-wrapper"**
+2. Add a <div> element with an id of your choosing. default is **"modal-wrapper"**
 ```
 <div id="modal-wrapper">
   <!-- ALL MODAL CONTENT INSIDE HERE -->
 </div>
 ```
-3.Add an <a> tag with an id of your choosing. default is **"modal-button"**
+3. Add an <a> tag with an id of your choosing. default is **"modal-button"**
 ```
   <a href="#" id="modal-button">Modal Button</a>
 ```
-4.Now initialize the Modal object
+4. Now initialize the Modal object
 ```
   <script>
     let modal = new Modal();
