@@ -1,6 +1,7 @@
-#Lightweight Modal
+===
+Lightweight Modal
 
-###Installation Instructions
+##Installation Instructions
 1. download and add the modal.js file to your HTML document.
 ```
 <script src="path/to/file/modal.js></script>
