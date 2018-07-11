@@ -49,7 +49,6 @@ Modal.prototype.borderClick = function() {
         //add a click event listener to the modal body, this detects which border was clicked and fades out and closes the modal to make the modal more user friendly
         document.getElementById(this.ele).addEventListener("click", function(event) {
             if (event.offsetX <= 0 || event.offsetY <= 0 || event.offsetY >= parseInt(this.clientHeight) || event.offsetX > parseInt(this.clientWidth)) {
-                console.log("border left or right clicked");
                 let ob = this;
                 let modalOpacity = 0.8;
                 let bordS = t.borderSize;
